@@ -1,0 +1,46 @@
+#centerText {
+	text-align: center;
+}
+
+li[data="red"]{
+	color: red;
+}
+li[data="big"]{
+	font-size: 24px;
+}
+ul:hover{
+	font-size: 35px;
+	font-style: italic;
+	color: blue;
+	transform: rotate(180deg);
+}
+ol:hover{
+	font-size: 50px;
+	font-style: bold;
+	color: purple;
+	transform: rotate(45deg);
+}
+
+div {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+}
+div:nth-of-type(2){
+	color: white;
+}
+p:nth-of-type(1){
+	font-style: italic;
+}
+div:active{
+	transform: rotate(45deg);
+}
+
+button:hover{
+	color: blue;
+}
+button:active{
+	border: solid;
+	height: 150px;
+	width: 200px;
+}
